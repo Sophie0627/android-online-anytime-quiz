@@ -7,4 +7,25 @@
     android:background="@drawable/background"
     tools:context=".MainActivity">
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="431dp"
+        tools:layout_editor_absoluteY="297dp">
+
+        <TextView
+            android:id="@+id/detailTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/open_sans_semibold"
+            android:gravity="center"
+            android:text="@string/enter_detail"
+            android:textSize="@dimen/_18sdp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_30sdp" />
+    </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
