@@ -1,4 +1,10 @@
 <resources>
     <string name="app_name">Online Anytime Quiz</string>
     <string name="enter_detail">Enter Your Details</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="email">Email</string>
+    <string name="email_helper_text">Results will be sent to this email</string>
+    <string name="company_name">Company Name</string>
+    <string name="continue_btn">Continue</string>
 </resources>
