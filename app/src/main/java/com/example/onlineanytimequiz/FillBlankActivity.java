@@ -9,7 +9,7 @@ import android.view.Window;
 import android.view.WindowManager;
 import android.widget.Button;
 
-public class TrueFalseActivity extends AppCompatActivity {
+public class FillBlankActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -25,14 +25,14 @@ public class TrueFalseActivity extends AppCompatActivity {
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
                 WindowManager.LayoutParams.FLAG_FULLSCREEN);
 
-        setContentView(R.layout.activity_true_false);
+        setContentView(R.layout.activity_fill_blank);
 
-        Button btn = (Button)findViewById(R.id.true_false_continue_btn);
+        Button btn = (Button)findViewById(R.id.fill_blank_continue_btn);
 
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(TrueFalseActivity.this, FillBlankActivity.class));
+                startActivity(new Intent(FillBlankActivity.this, FillBlankActivity.class));
             }
         });
     }
