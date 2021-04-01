@@ -35,7 +35,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:fontFamily="@font/open_sans_semibold"
-            android:text="This question type is auto assessable. If the correct answer is selected the quiz engine will mark it as correct.\nThis will automatically be included in the final results that is emailed to the student."
+            android:text="@string/guideline_txt"
             android:textColor="#F44336"
             android:textSize="@dimen/_11sdp"
             android:textStyle="bold" />

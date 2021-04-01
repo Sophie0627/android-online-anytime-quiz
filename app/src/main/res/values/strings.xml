@@ -7,4 +7,6 @@
     <string name="email_helper_text">Results will be sent to this email</string>
     <string name="company_name">Company Name</string>
     <string name="continue_btn">Continue</string>
+    <string name="select">Select</string>
+    <string name="guideline_txt">This question type is auto assessable. If the correct answer is selected the quiz engine will mark it as correct. This will automatically be included in the final results that is emailed to the student.</string>
 </resources>
