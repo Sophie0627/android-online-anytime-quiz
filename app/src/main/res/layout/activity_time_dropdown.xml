@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/background"
-    tools:context=".DropdownActivity">
+    tools:context=".TimeDropdownActivity">
 
     <LinearLayout
         android:layout_width="0dp"
@@ -32,7 +32,7 @@
 
             <LinearLayout
                 android:layout_width="0dip"
-                android:layout_height="match_parent"
+                android:layout_height="wrap_content"
                 android:layout_weight="2"
                 android:gravity="center"
                 android:orientation="vertical">
@@ -62,13 +62,13 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/open_sans_semibold"
-                    android:text="Petrol costs $1.77 per litre.  The cars fuel tank is empty.  When full, it holds 60 litres.  It will cost _____________ to fill the car up with fuel."
+                    android:text="You start work at 10:00am and your manager tells you on your arrival that your ½ hour lunch break will be in 3 and ½ hours.  What time will your lunch break start?"
                     android:textColor="#000000"
                     android:textSize="@dimen/_12sdp"
                     android:textStyle="bold" />
 
                 <Spinner
-                    android:id="@+id/dropdown_spinner"
+                    android:id="@+id/time_dropdown_spinner"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center|start|left"
@@ -78,15 +78,15 @@
 
             </LinearLayout>
 
-<!--            <ImageView-->
-<!--                android:id="@+id/imageView3"-->
-<!--                android:layout_width="0dip"-->
-<!--                android:layout_height="wrap_content"-->
-<!--                android:layout_gravity="center"-->
-<!--                android:layout_weight="1"-->
-<!--                android:adjustViewBounds="true"-->
-<!--                android:scaleType="centerCrop"-->
-<!--                android:src="@tools:sample/backgrounds/scenic" />-->
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/card" />
 
         </LinearLayout>
 
@@ -95,7 +95,7 @@
             android:layout_height="match_parent">
 
             <Button
-                android:id="@+id/dropdown_continue_btn"
+                android:id="@+id/time_dropdown_continue_btn"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/_10sdp"

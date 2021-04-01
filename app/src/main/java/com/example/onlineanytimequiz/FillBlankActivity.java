@@ -9,6 +9,8 @@ import android.view.Window;
 import android.view.WindowManager;
 import android.widget.Button;
 
+import java.sql.Time;
+
 public class FillBlankActivity extends AppCompatActivity {
 
     @Override
@@ -32,7 +34,7 @@ public class FillBlankActivity extends AppCompatActivity {
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(FillBlankActivity.this, FillBlankActivity.class));
+                startActivity(new Intent(FillBlankActivity.this, TimeDropdownActivity.class));
             }
         });
     }
