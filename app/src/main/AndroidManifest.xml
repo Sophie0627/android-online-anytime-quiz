@@ -9,8 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.OnlineAnytimeQuiz">
-        <activity android:name=".DropdownActivity"
+        <activity android:name=".TrueFalseActivity"
             android:screenOrientation="landscape"></activity>
+        <activity
+            android:name=".DropdownActivity"
+            android:screenOrientation="landscape" />
         <activity
             android:name=".SignActivity"
             android:screenOrientation="landscape" />

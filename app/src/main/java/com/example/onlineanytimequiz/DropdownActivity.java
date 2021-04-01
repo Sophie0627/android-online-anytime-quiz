@@ -39,12 +39,12 @@ public class DropdownActivity extends AppCompatActivity {
         s.setAdapter(adapter);
 
         Button btn = (Button)findViewById(R.id.dropdown_continue_btn);
-//
-//        btn.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                startActivity(new Intent(DropdownActivity.this, DropdownActivity.class));
-//            }
-//        });
+
+        btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(DropdownActivity.this, TrueFalseActivity.class));
+            }
+        });
     }
 }
