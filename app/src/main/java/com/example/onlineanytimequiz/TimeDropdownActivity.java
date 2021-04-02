@@ -39,12 +39,12 @@ public class TimeDropdownActivity extends AppCompatActivity {
         s.setAdapter(adapter);
 
         Button btn = (Button)findViewById(R.id.time_dropdown_continue_btn);
-//
-//        btn.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                startActivity(new Intent(FillBlankActivity.this, FillBlankActivity.class));
-//            }
-//        });
+
+        btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(TimeDropdownActivity.this, HotspotActivity.class));
+            }
+        });
     }
 }
