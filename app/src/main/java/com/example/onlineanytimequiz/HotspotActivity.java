@@ -27,13 +27,13 @@ public class HotspotActivity extends AppCompatActivity {
 
         setContentView(R.layout.activity_hotspot);
 
-//        Button btn = (Button)findViewById(R.id.time_dropdown_continue_btn);
-//
-//        btn.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                startActivity(new Intent(TimeDropdownActivity.this, HotspotActivity.class));
-//            }
-//        });
+        Button btn = (Button)findViewById(R.id.hotspot_continue_btn);
+
+        btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(HotspotActivity.this, MultiDropdownActivity.class));
+            }
+        });
     }
 }
