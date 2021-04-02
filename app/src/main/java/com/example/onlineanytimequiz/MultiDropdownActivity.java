@@ -79,7 +79,7 @@ public class MultiDropdownActivity extends AppCompatActivity {
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(MultiDropdownActivity.this, MultiDropdownActivity.class));
+                startActivity(new Intent(MultiDropdownActivity.this, DragClickActivity.class));
             }
         });
     }

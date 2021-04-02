@@ -9,8 +9,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.OnlineAnytimeQuiz">
-        <activity android:name=".MultiDropdownActivity"
+        <activity android:name=".ResultActivity"
             android:screenOrientation="landscape"></activity>
+        <activity android:name=".DragDropActivity"
+            android:screenOrientation="landscape"/>
+        <activity android:name=".DragClickActivity"
+            android:screenOrientation="landscape"/>
+        <activity
+            android:name=".MultiDropdownActivity"
+            android:screenOrientation="landscape" />
         <activity
             android:name=".HotspotActivity"
             android:screenOrientation="landscape" />
