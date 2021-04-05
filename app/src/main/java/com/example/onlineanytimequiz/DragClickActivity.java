@@ -144,7 +144,14 @@ public class DragClickActivity extends AppCompatActivity implements View.OnDragL
                 owner.removeView(vw); //remove the dragged view
                 //caste the view into LinearLayout as our drag acceptable layout is LinearLayout
                 LinearLayout container = (LinearLayout) v;
-                container.addView(vw);//Add the dragged view
+
+                String tag = (String) container.getTag();
+
+                if ((container.getChildCount() < 2 && tag.equals("left")) || (container.getChildCount() == 0 && tag.equals("right"))) {
+                    container.addView(vw);//Add the dragged view
+                } else {
+                    owner.addView(vw);
+                }
                 vw.setVisibility(View.VISIBLE);//finally set Visibility to VISIBLE
                 // Returns true. DragEvent.getResult() will return true.
                 return true;

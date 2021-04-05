@@ -78,7 +78,8 @@
                         android:layout_height="wrap_content"
                         android:background="#FFFFFF"
                         android:gravity="center"
-                        android:orientation="horizontal">
+                        android:orientation="horizontal"
+                        android:tag="left">
 
                         <TextView
                             android:id="@+id/match_text_left_1"
@@ -103,7 +104,8 @@
                         android:layout_weight="1"
                         android:background="#FFFFFF"
                         android:gravity="center|right"
-                        android:orientation="vertical">
+                        android:orientation="vertical"
+                        android:tag="right">
 
                         <TextView
                             android:id="@+id/match_text_right_1"
@@ -132,7 +134,8 @@
                         android:layout_height="wrap_content"
                         android:background="#FFFFFF"
                         android:gravity="center"
-                        android:orientation="horizontal">
+                        android:orientation="horizontal"
+                        android:tag="left">
 
                         <TextView
                             android:id="@+id/match_text_left_2"
@@ -157,7 +160,8 @@
                         android:layout_weight="1"
                         android:background="#FFFFFF"
                         android:gravity="center|right"
-                        android:orientation="vertical">
+                        android:orientation="vertical"
+                        android:tag="right">
 
                         <TextView
                             android:id="@+id/match_text_right_2"
@@ -186,7 +190,8 @@
                         android:layout_height="wrap_content"
                         android:background="#FFFFFF"
                         android:gravity="center"
-                        android:orientation="horizontal">
+                        android:orientation="horizontal"
+                        android:tag="left">
 
                         <TextView
                             android:id="@+id/match_text_left_3"
@@ -211,7 +216,8 @@
                         android:layout_weight="1"
                         android:background="#FFFFFF"
                         android:gravity="center|right"
-                        android:orientation="vertical">
+                        android:orientation="vertical"
+                        android:tag="right">
 
                         <TextView
                             android:id="@+id/match_text_right_3"
